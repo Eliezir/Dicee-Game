@@ -24,9 +24,9 @@ function jogar() {
         jogar();
     }
     else if(num1 > num2){
-        document.querySelector("h1").innerHTML = "Vitoria do jogador1!&#x1F3C6";
+        document.querySelector("h1").innerHTML ="&#x1F3C6Vitoria do jogador1!;
     }
     else{
-        document.querySelector("h1").innerHTML = "&#x1F3C6Vitoria do jogador2!";
+        document.querySelector("h1").innerHTML = "Vitoria do jogador2!&#x1F3C6";
     }
 }
